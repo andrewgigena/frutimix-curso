@@ -1,0 +1,56 @@
+.info-container {
+  width: 80%;
+  max-width: 1080px;
+  margin: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.info-block {
+  /* Posicion */
+  margin: 5vh 1vw;
+  padding: 1vh 1vw;
+  display: flex;
+  flex-direction: column;
+
+  /* Estilo */
+  background-color: var(--fondo-098);
+  border: solid 0.1rem var(--color-bordes);
+  border-radius: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.info-block img {
+  max-width: 80%;
+  border-radius: 100%;
+  align-self: center;
+}
+
+.info-block h2 {
+  /* Posicion */
+  display: block;
+  width: auto;
+  margin: 0.5rem;
+  align-self: center;
+
+  /* Estilo */
+  border-bottom: 0.1rem var(--color-bordes-secundario) solid;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 rgb(0, 0, 0);
+}
+
+.info-block ul {
+  list-style: square;
+  font-size: 1.7rem;
+}
+
+#info-verduras {
+  color: var(--color-verduras-texto);
+}
+
+#info-frutas {
+  color: var(--color-frutas-texto);
+}

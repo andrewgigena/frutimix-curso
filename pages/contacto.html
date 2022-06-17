@@ -58,21 +58,22 @@
         </div>
     </header>
 
-    <main class="content">
-        <section>
-            <article>
-                <strong>Por ventas especiales a empresas, residenciales, estatales y comercios contactese aquí.</strong>
-                <form method="post">
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" name="nombre" id="nombre">
-                    <label for="email">Correo electrónico:</label>
-                    <input type="email" name="email" id="email">
-                    <label for="mensaje">Mensaje:</label>
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
-                    <input type="submit" value="Enviar">
-
-                </form>
-            </article>
+    <main id="contact" class="main-content">
+        <section class="content-block content-block-pm">
+            <strong>Por ventas especiales a empresas, residenciales, estatales y comercios contactese aquí.</strong>
+            <form class="contact-form" method="post">
+                <label for="nombre" class="contact-form-block">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" class="contact-form-block">
+                <label for="email" class="contact-form-block">Correo electrónico:</label>
+                <input type="email" name="email" id="email" class="contact-form-block">
+                <label for="mensaje" class="contact-form-block">Mensaje:</label>
+                <textarea name="mensaje" id="mensaje" class="contact-form-block"></textarea>
+                <div>
+                    <input type="checkbox" id="terms" value="terms">
+                    <label for="terms">Acepto los Terminos y Condiciones</label>
+                    <input class="contact-form-send" type="submit" value="Enviar" >
+                </div>
+            </form>
         </section>
     </main>
 
